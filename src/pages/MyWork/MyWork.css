@@ -1,0 +1,19 @@
+.myWork {
+    background-color: #031030ec;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.header {
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 200px;
+}
+
+hr.break {
+    width: 80%;               
+    color: white;
+    height: 1px;
+    margin: 15px auto 0 auto;
+    /* border: 1px solid red; */
+}

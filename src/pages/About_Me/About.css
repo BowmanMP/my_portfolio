@@ -1,0 +1,102 @@
+
+.about-page {
+    background-color: #031030ec;
+    display: flex;
+    margin: auto;
+
+}
+
+.columns {
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.column-left {
+    width:50%;
+    padding: 12% 20px 0 5%;
+}
+
+.column-right {
+    width: 50%;
+    padding: 5% 3% 5% 0;
+}
+
+h1 {
+    padding-top: 8%;
+    margin-top: 15%;
+    font-size: 60px !important;
+    font-family: font-file-82132;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+p {
+    color: white;
+    line-height: 20px;
+    font-size: 16px;
+    text-overflow: scroll;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+h1 a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: font-file-82132;
+    
+    background: linear-gradient(to right, white, white 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+a.effect-shine:hover {
+    background-image: linear-gradient(-75deg, rgba(8,253,216,.6) 30%, #118d3a 50%, rgba(8,253,216,.6) 70%);
+    background-size: 200%;
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    from {
+      background-position: 150%;
+    }
+    
+    to {
+      background-position: -50%;
+    }
+}
+
+img.climbing {
+    height: auto;
+    max-width: 100%;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 2px 2px 11px black;
+}
+
+@media only screen and (max-width: 768px) {
+   .columns {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+   }
+
+   .column-left {
+    width:100%;
+    padding: 0;
+    }
+
+    .column-right {
+        width: 100%;
+        padding: 5% 0 0 0;
+    }
+
+}

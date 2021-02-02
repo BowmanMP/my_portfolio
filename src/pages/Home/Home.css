@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+* {
+    box-sizing: border-box
+}
+
+.home-page {
+    background-color: #031030ec;
+    color: #ffffff;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+.home-page::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.text-zone {
+    margin: auto;
+    text-align: left;
+    z-index: 1;
+    width: 50%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+}
+
+.intro {
+    font-size: 5px;
+    line-height: 56px;
+    font-family: font-file-82132;
+    color: #ffffff;
+    margin-left: 0;
+
+}
+
+.role-description {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #c4c3c3;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+.contact-button {
+    color: #08fdd8;
+    background-color: transparent;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #08fdd8;
+    margin-top: 25px;
+    float: left;
+    /* border: 1px solid red; */
+}
+
+.particles-zone-container {
+    width: 50%;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+
+h1 a.effect-shine {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: font-file-82132;
+
+    background: linear-gradient(to right, white, white 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+a.effect-shine:hover {
+    background-image: linear-gradient(-75deg, rgba(8,253,216,.6) 30%, #118d3a 50%, rgba(8,253,216,.6) 70%);
+    background-size: 200%;
+    animation: shine 1s infinite;
+}
+
+@keyframes shine {
+    from {
+      background-position: 150%;
+    }
+    
+    to {
+      background-position: -50%;
+    }
+}

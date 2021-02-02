@@ -1,0 +1,27 @@
+.contactScreen {
+    background-color: #031030ec;
+}
+
+.contact-form-container {
+    height:500px;
+    margin:auto;
+    display:inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.contact-form-container-particles {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+}
+
+.contact-form-container-info {
+    z-index: 99;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
+
+
+
