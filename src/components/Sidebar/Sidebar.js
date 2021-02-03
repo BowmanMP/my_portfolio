@@ -22,7 +22,7 @@ export const Sidebar = () => {
                     <Link to="#" className='menu-bars'>
                         <FaIcons.FaBars onClick={showSidebar}/>
                     </Link>
-                    <a  rel="index" href='/' className="logo">
+                    <a  rel="index" href='/my_portfolio/' className="logo">
                         <img src={logo} alt="React Web Developer"></img>
                     </a>
                 </div>
