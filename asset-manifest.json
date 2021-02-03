@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.0db2596d.chunk.css",
+    "main.css": "/my_portfolio/static/css/main.5162bdde.chunk.css",
     "main.js": "/my_portfolio/static/js/main.dcb6017f.chunk.js",
     "main.js.map": "/my_portfolio/static/js/main.dcb6017f.chunk.js.map",
     "runtime-main.js": "/my_portfolio/static/js/runtime-main.c9e726f1.js",
@@ -10,7 +10,7 @@
     "static/js/2.0488b1bd.chunk.js.map": "/my_portfolio/static/js/2.0488b1bd.chunk.js.map",
     "index.html": "/my_portfolio/index.html",
     "static/css/2.3ebaa56c.chunk.css.map": "/my_portfolio/static/css/2.3ebaa56c.chunk.css.map",
-    "static/css/main.0db2596d.chunk.css.map": "/my_portfolio/static/css/main.0db2596d.chunk.css.map",
+    "static/css/main.5162bdde.chunk.css.map": "/my_portfolio/static/css/main.5162bdde.chunk.css.map",
     "static/js/2.0488b1bd.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.0488b1bd.chunk.js.LICENSE.txt",
     "static/media/Hangry_Screenshot.9f7d53f3.png": "/my_portfolio/static/media/Hangry_Screenshot.9f7d53f3.png",
     "static/media/JammingProject.5c6e65db.png": "/my_portfolio/static/media/JammingProject.5c6e65db.png",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.c9e726f1.js",
     "static/css/2.3ebaa56c.chunk.css",
     "static/js/2.0488b1bd.chunk.js",
-    "static/css/main.0db2596d.chunk.css",
+    "static/css/main.5162bdde.chunk.css",
     "static/js/main.dcb6017f.chunk.js"
   ]
 }
