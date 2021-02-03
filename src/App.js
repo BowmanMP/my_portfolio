@@ -10,10 +10,10 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-      <Router >
+      <Router basename='/my_portfolio'>
         <Sidebar />
         <Switch>
-          <Route path='/' exact component={Home}/>
+          <Route path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/myWork' component={MyWork}/>
           <Route path='/contact' component={Contact}/>
