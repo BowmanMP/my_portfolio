@@ -1,14 +1,9 @@
 #bioSkillsHeader {
     color:white;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-top: 30px;
     text-shadow: 2px 2px black;
     font-size:36px;
     animation: bounceIn 2s;
     /* padding-top: 50px; */
 }
 
-span {
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Button.css';
+import { HashRouter, Link} from 'react-router-dom';
 
 function ContactButton() {
 
@@ -14,10 +15,12 @@ function ContactButton() {
     }
 
   return (
-    <a className="contact-button" href="/contact"
-      onMouseOver={changeBackground}
-      onMouseLeave={changeBack}>Contact me!
-    </a>
+    <div>
+      <HashRouter basename="/my_portfolio" />  
+      <Link to='/contact' className="contact-button" 
+          onMouseOver={changeBackground}
+          onMouseLeave={changeBack}>Contact me!</Link>
+    </div>
   );
 }
 
