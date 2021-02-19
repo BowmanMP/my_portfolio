@@ -1,7 +1,7 @@
 import React from 'react';
 import './HangryProject.css';
 import { Icon } from 'semantic-ui-react'
-import photo from './Hangry_Screenshot.png';
+import photo from '../../images/Hangry_Screenshot.png';
 
 
 function HangryProject() {

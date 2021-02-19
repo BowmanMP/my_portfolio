@@ -1,7 +1,7 @@
 import React from 'react';
 import './JammingProject.css';
 import { Icon } from 'semantic-ui-react'
-import photo from './JammingProject.png';
+import photo from '../../images/JammingProject.png';
 
 function JammingProject() {
     return (
