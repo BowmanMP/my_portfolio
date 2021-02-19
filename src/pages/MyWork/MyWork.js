@@ -1,4 +1,5 @@
 import React from 'react';
+import LiteraryProject from '../../components/LiteraryProject/LiteraryProject';
 import HangryProject from '../../components/HangryProject/HangryProject';
 import JammingProject from '../../components/JammingProject/JammingProject';
 import MySkills from '../../components/MySkills/MySkills';
@@ -14,6 +15,10 @@ function MyWork() {
             </div>
             <div className="myWork-page">
                 <div className="project">
+                    <hr className="break" />
+                    <Fade bottom>
+                        <LiteraryProject />
+                    </Fade>
                     <hr className="break" />
                     <Fade bottom>
                         <HangryProject />
