@@ -19,7 +19,7 @@ function HangryProject() {
                     <h2 className='projectAccess'>Check it Out</h2>
                     <div className='accessContainer'>
                         <p>
-                            <a href='https://bowmanmp.github.io/hangry-apps/' target='_blank' rel="noopener noreferrer" ><Icon name="computer" link size='large' /> Web App</a>
+                            <a href='https://bowmanmp.github.io/Hangry/' target='_blank' rel="noopener noreferrer" ><Icon name="computer" link size='large' /> Web App</a>
                         </p>
                     </div>
                 </div>
