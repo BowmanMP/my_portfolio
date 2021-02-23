@@ -10,7 +10,7 @@ function About() {
                 <div className="column-left">
                     <Bounce left>
                         <h1><a href="#." className="effect-shine">About Me</a></h1>
-                        <p >Professionally connected with the high-growth tech industry in NY and SF. 
+                        <p >Experience working with high-growth technology companies in NYC and SF has enabled a unique combination of technical and business skills. 
                         </p>
                         <p>Well-organised person, problem solver, team player, naturally curious with high attention to detail. Fan of outdoor activities, rock climbing, triathlons and reading. A family person, husband, and father to a rambunctious dog. Remote employment is preferred.
                         </p>
