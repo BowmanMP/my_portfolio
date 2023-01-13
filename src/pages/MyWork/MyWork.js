@@ -21,11 +21,11 @@ function MyWork() {
                     </Fade>
                     <hr className="break" />
                     <Fade bottom>
-                        <HangryProject />
+                        <JammingProject />
                     </Fade>
                     <hr className="break" />
                     <Fade bottom>
-                        <JammingProject />
+                         <HangryProject />
                     </Fade>
                     <hr className="break" />
                 </div>
