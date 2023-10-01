@@ -21,13 +21,7 @@ export const SidebarData = [
         path: '/myWork',
         icon: <BsIcons.BsEye />,
         cName: 'nav-text'
-    }, 
-    {
-        title: 'Contact', 
-        path: '/contact',
-        icon: <AiIcons.AiOutlineMail />,
-        cName: 'nav-text'
-    }, 
+    },  
 ]
 
 export const logo = 'public/m_Logo.png';
