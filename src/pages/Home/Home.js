@@ -12,9 +12,6 @@ function Home() {
                 <div className="text-zone">
                     <h1 className='intro'><a href="#." className="effect-shine">Hi, I'm Matt.</a><br></br></h1>
                     <h2 className="role-description">Full Stack Software Developer</h2>
-                    <ContactButton rel="contact" >
-                        Contact me!
-                    </ContactButton>
                 </div>
             </Flip>
         
