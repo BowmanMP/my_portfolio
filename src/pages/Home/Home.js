@@ -10,11 +10,8 @@ function Home() {
         <div className='home-page'>
             <Flip>
                 <div className="text-zone">
-                    <h1 className='intro'><a href="#." className="effect-shine">Hi, </a><br></br><a href="#." className="effect-shine">I'm Matt, </a><br></br><a href="#." className="effect-shine">web developer.  </a></h1>
-                    <h2 className="role-description">React.js Front End Developer</h2>
-                    <ContactButton rel="contact" >
-                        Contact me!
-                    </ContactButton>
+                    <h1 className='intro'><a href="#." className="effect-shine">Hi, I'm Matt.</a><br></br></h1>
+                    <h2 className="role-description">Full Stack Software Developer</h2>
                 </div>
             </Flip>
         
