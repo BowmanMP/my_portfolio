@@ -5,11 +5,15 @@ import 'semantic-ui-css/semantic.min.css'
 import {HashRouter} from 'react-router-dom';;
 
 
-ReactDOM.render(
-    <HashRouter>
+function renderApp(root) {
+    ReactDOM.render(
+      <HashRouter>
         <App />
-    </HashRouter>,
-    document.getElementById('root')
-);
+      </HashRouter>,
+      root
+    );
+  }
+  
+  renderApp(document.getElementById('root'));
 
 
